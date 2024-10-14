@@ -1,0 +1,7 @@
+#ifndef STRING_HELPERS_EXTRA_H
+#define STRING_HELPERS_EXTRA_H
+
+char* string_concat(char* dest, const char* src);
+int string_contains(const char* str, const char* substr);
+
+#endif // STRING_HELPERS_EXTRA_H
